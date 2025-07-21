@@ -1,5 +1,5 @@
 # PNG Image Box Blur with Pthreads
-This program applies a box blur filter to a PNG image using multithreading via the PThreads library. The blur is applied using a 3x3 kernel, averaging the RGB values of each pixel and its surrounding neighbours to produce a smooth output image. The workload is split evenly across multiple threads, which are specified at runtime.
+This program applies a box blur filter to a PNG image using multithreading via the PThreads library. The blur is applied using a 3x3 kernel, averaging the RGB values of each pixel and its surrounding neighbours to produce a smooth output image. The workload is split evenly across multiple threads, which are specified at runtime. It was developed as part of a second-year module in *Numerical Methods and Concurrency*.
 
 # Features
 - Reads and decodes PNG images using the lodepng library.
