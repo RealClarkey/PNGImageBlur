@@ -19,5 +19,5 @@ This program applies a box blur filter to a PNG image using multithreading via t
 To compile and run the program, use the following commands in the terminal:
 
 ```bash
-gcc PNGImageBlur.c lodepng.c -pthread
+gcc PNGImageBlur.c lodepng.c -lpthread
 ./a.out [filename] [thread count]
