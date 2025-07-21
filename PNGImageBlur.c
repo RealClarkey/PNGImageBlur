@@ -4,7 +4,7 @@
 #include "lodepng.h"
 
 // To use this file use the below commands in terminal:
-// task4.c lodepng.c -pthread
+// PNGImageBlur.c lodepng.c -pthread
 // ./a.out [filename] [thread count]
 
 
